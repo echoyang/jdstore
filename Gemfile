@@ -39,8 +39,9 @@ gem 'mini_magick'
 gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'figaro'
-gem 'fog-aws'
-
+#gem 'fog-aws'
+gem 'qiniu', github: 'qiniu/ruby-sdk'
+gem 'carrierwave-qiniu'
 
 gem 'annotate'
 
